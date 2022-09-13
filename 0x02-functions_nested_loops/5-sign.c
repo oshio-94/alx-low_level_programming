@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * ptint_sign - Determines if the input number >||==||< 0
+ * print_sign - Determines if the input number >||==||< 0
  *
  * @n: The input number as an integer
  *
