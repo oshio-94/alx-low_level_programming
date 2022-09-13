@@ -16,7 +16,7 @@ void times_table(void)
 			prdct = a * b;
 			_putchar(44);
 			_putchar(32);
-			if (op <= 9)
+			if (prdct <= 9)
 			{
 				_putchar(32);
 				_putchar(prdct + 48);
