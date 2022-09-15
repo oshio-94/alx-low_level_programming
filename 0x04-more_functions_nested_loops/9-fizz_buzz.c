@@ -7,8 +7,7 @@ int main(void)
 {
 	int n;
 
-	n = 1;
-	for (n = 2; n <= 100; n++)
+	for (n = 1; n <= 100; n++)
 	{
 		if ((n % 3 == 0) && (n % 5 == 0))
 		{
