@@ -1,7 +1,7 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 
-#include <stdio.h>
+#include<stdio.h>
 
 int _putchar(char a);
 void print_alphabet(void);
@@ -18,4 +18,5 @@ void print_to_98(int n);
 void print_times_table(int n);
 int largest_number(int a, int b, int c);
 void positive_or_negative(int i);
-#endif
+
+#endif /* MAIN_H */
