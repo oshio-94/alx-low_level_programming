@@ -5,7 +5,7 @@
  * @a: input value
  * @b: input value
  *
- * Return - multiplication
+ * Return: multiplication
  */
 int mul(int a, int b)
 {
