@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -Prints largest prime factor
+ * main - Prints largest prime factor
  * Return: Always 0
  */
 int main(void)
@@ -9,14 +9,14 @@ int main(void)
 	long int n, z;
 
 	n = 612852475143;
-	for (fp = 2; fp <= n; fp++)
+	for (z = 2; z <= n; z++)
 	{
-		if (n % fp == 0)
+		if (n % z == 0)
 		{
-			n /= fp;
-			fp--;
+			n /= z;
+			z--;
 		}
 	}
-	printf("%ld\n", fp);
+	printf("%ld\n", z);
 	return (0);
 }
