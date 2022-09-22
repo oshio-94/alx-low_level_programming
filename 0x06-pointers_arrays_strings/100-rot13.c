@@ -6,10 +6,11 @@
  */
 char *rot13(char *s)
 {
-	int count, a;
+	int count, i;
 	char x[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
+	count = 0;
 	while (*(s + count) != '\0')
 	{
 		for (i = 0; i < 52; i++)
