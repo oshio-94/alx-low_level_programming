@@ -3,7 +3,7 @@
 /**
  * free_grid - funstion that frees a 2 dimensional grid prviously
  * created by your alloc_grid function
- * @grid: 2 dimensional grid 
+ * @grid: 2 dimensional grid
  * @height: height of the grid
  * Return: no return
  */
