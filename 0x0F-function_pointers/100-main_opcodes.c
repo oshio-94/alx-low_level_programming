@@ -17,18 +17,18 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 
-	nbytes = atoi(argv[1]);
+	nb = atoi(argv[1]);
 
-	if (nbytes < 0)
+	if (nb < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
 
-	for (i = 0; i < nbytes; i++)
+	for (i = 0; i < nb; i++)
 	{
 		printf("%02x", opc[i] & 0xFF);
-		if (i != nbytes - 1)
+		if (i != nb - 1)
 			printf(" ");
 	}
 	printf("\n");
