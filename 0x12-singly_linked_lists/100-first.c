@@ -2,7 +2,7 @@
 /*******constructors*********/
 void adv_links(void) __attribute__((constructor));
 /**
- * linklist - executed before main 
+ * adv_links - executed before main
  * Return - no value
  */
 void adv_links(void)
