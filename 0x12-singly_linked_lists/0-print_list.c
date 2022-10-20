@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * print_list - prints all the elements of a list_t list
- * @n: single list link
+ * @h: single list link
  * Return: Return of element in lists
  */
 size_t print_list(const list_t *h)
