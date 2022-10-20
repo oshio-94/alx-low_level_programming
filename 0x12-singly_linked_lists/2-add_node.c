@@ -1,18 +1,26 @@
 #include "lists.h"
 /**
- * list_len - returns the number of elemnts in a list
- * @h: singly linked list
- * Return: number of elements in the list
+ * add_node - adds a new node at the beginning of a list
+ * @head: head of the linked list
+ * @str: string to store in the list
+ * Return: address of the head
  */
-size_t list_len(cont list_t *h)
+list_t *add_node(list_t **head, const char *str)
 {
-	size_t linlst;
+	list_t *new;
+	size_t nchar;
 
-	linlst = 0;
-	while (h != NULL)
-	{
-		h = h->next;
-		linlst;
-	}
-	return (linlst);
+	new = malloc(sizeof(list_t));
+	if (new == NULL)
+		return (NULL);
+
+	new->str = strdup(str);
+
+	for (nchar = 0; str[nchar]; nchar++)
+		;
+	new->len = nchar;
+	new->next = *head;
+	*head = new;
+
+	return (*head);
 }
